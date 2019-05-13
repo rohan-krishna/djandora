@@ -1,0 +1,16 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid" style="height: 100vh !important;">
+    <div class="d-flex flex-column justify-content-center align-items-center" style="height: 100vh;">
+        <img src="{% static 'django.svg' %}" alt="django" class="pb-3" width="64">
+        <h3 class="mb-3">Hi Traveller! Welcome to Djandora, a starter django template.</h3>
+        <a href="https://github.com/rohan-krishna/djandora" class="btn btn-success" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+    </div> 
+</div>
+
+{% endblock content %}
